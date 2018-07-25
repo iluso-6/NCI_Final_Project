@@ -27,6 +27,7 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
 
 
 <table>
+		<th colspan="3">Sign in and Menu Activities</th>
   <tr>
     <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image039.png?raw=true" align="left"/></td>
     <td width="33%"></td>
@@ -40,6 +41,7 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
 </table>
 
 <table>
+	<th colspan="3">Favourite and Station Activities</th>
   <tr>
     <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image041.png?raw=true" align="left"/></td>
     <td width="33%"></td>
@@ -53,6 +55,7 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
 </table>
 
 <table>
+	<th colspan="3">Journey Selection and Begin Journey (selection complete) Activities</th>
   <tr>
     <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image043.png?raw=true" align="left"/></td>
     <td width="33%"></td>
@@ -66,6 +69,7 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
 </table>
 
 <table>
+	<th colspan="3">Staff Expandable View before and after</th>
   <tr>
     <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image045.png?raw=true" align="left"/></td>
     <td width="33%"></td>
@@ -79,6 +83,7 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
 </table>
 
 <table>
+	<th colspan="3">Staff Activity for viewing individual clients </th>
   <tr>
     <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image053.png?raw=true" align="left"/></td>
     <td width="33%"></td>
