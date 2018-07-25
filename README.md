@@ -20,4 +20,4 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
 •	Employees will be notified when customers are within the vicinity and in need of assistance.<br>
 
 
-![alt tag](https://github.com/iluso-6/NCI_Final_Project/blob/master/Project_Doc.pdf)
+https://github.com/iluso-6/NCI_Final_Project/blob/master/Project_Doc.pdf
