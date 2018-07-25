@@ -1,6 +1,6 @@
 # T.A.P.
-***Transport Accessibility Platform***
-
+***Transport Accessibility Platform***<br>
+<img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image001.png?raw=true" align="left"/><br>
 	Project Description
 This document outlines the requirements to develop of a software solution that addresses the issue of rail transport accessibility for people with disabilities. It will demonstrate the issue at hand and the necessary requirements needed in order to complete a satisfactory solution.  
 The software solution will require two applications. An application for the intended user and an application for the Irish Rail employee. 
