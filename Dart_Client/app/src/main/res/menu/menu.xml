@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:popupTheme="@style/popupNew"
+    android:theme="@style/popupNew">
+
+    <item
+        android:id="@+id/menuLocalStation"
+        android:title="@string/menu_set_local_station"
+        app:theme="@style/popupNew" />
+
+    <item
+        android:id="@+id/menuContactNumber"
+        android:title="@string/phone_number_contact" />
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="@string/logout" />
+
+
+</menu>

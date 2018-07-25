@@ -1,0 +1,209 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tlTable01"
+    android:background="@color/dark_grey"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="1dp"
+    android:stretchColumns="0,1">
+    <TableRow
+        android:background="@color/grey"
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dark_grey"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="@string/train_id"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/train_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dark_grey"
+            android:gravity="center"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="d379"
+            android:textAllCaps="true"
+            android:textStyle="bold|italic" />
+    </TableRow>
+    <TableRow
+
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/grey"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="Train Type"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="Dart" />
+    </TableRow>
+
+    <TableRow
+        android:background="@color/grey"
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dark_grey"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="@string/direction"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dark_grey"
+            android:gravity="center"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="Northbound" />
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/grey"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="Scheduled  Arrival"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sch_arr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="13:40" />
+    </TableRow>
+
+    <TableRow
+        android:background="@color/grey"
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dark_grey"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="Expected Arrival"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/exp_arr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dark_grey"
+            android:gravity="center"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="12:32" />
+    </TableRow>
+    <TableRow
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/grey"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:text="Origin"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="13:40" />
+    </TableRow>
+
+    <TableRow
+        android:background="@color/grey"
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dark_grey"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="Destination"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dark_grey"
+            android:gravity="center"
+            android:padding="@dimen/cient_table_padding"
+            android:textSize="@dimen/cient_table_text"
+            android:textColor="@color/off_white"
+            android:text="12:32" />
+    </TableRow>
+</TableLayout>

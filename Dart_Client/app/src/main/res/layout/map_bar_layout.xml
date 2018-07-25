@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/view_below"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/action_buttons_background"
+        android:backgroundTint="@color/dart_cream"
+        android:checked="true"
+        android:drawableEnd="@drawable/ortho"
+        android:textColor="@color/colorPrimary" />
+
+    <RadioButton
+        android:id="@+id/radio2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/action_buttons_background"
+        android:backgroundTint="@color/dart_cream"
+        android:drawableEnd="@drawable/aerial"
+
+        android:textColor="@color/colorPrimary" />
+    <RadioButton
+        android:id="@+id/radio3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/action_buttons_background"
+        android:backgroundTint="@color/dart_cream"
+        android:drawableEnd="@drawable/tour"
+
+        android:textColor="@color/colorPrimary" />
+
+</RadioGroup>
+</LinearLayout>

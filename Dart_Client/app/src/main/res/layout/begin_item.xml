@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/begin_item_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/dark_grey"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/org_man"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="start"
+        android:scaleType="fitCenter"
+        android:scaleX=".75"
+        android:scaleY=".75"
+        android:visibility="invisible"
+        android:src="@drawable/man" />
+
+    <ImageView
+        android:id="@+id/zone_org_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_toEndOf="@+id/org_man"
+        android:scaleType="fitCenter"
+        android:scaleX="-.5"
+        android:scaleY="-.5"
+        android:visibility="invisible"
+        card_view:srcCompat="@android:drawable/presence_away" />
+
+    <TextView
+        android:id="@+id/txt_origin"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/zone_org_circle"
+        android:padding="4dp"
+        android:textColor="@color/off_white"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/dest_man"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:scaleX=".75"
+        android:scaleY=".75"
+        android:src="@drawable/man" />
+
+    <ImageView
+        android:id="@+id/zone_dest_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_toStartOf="@+id/dest_man"
+        android:scaleType="fitCenter"
+        android:scaleX="-.5"
+        android:scaleY="-.5"
+        android:visibility="invisible"
+        card_view:srcCompat="@android:drawable/presence_away" />
+
+    <TextView
+        android:id="@+id/txt_dest"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/zone_dest_circle"
+        android:padding="4dp"
+        android:textColor="@color/off_white"
+        android:textStyle="bold" />
+</RelativeLayout>

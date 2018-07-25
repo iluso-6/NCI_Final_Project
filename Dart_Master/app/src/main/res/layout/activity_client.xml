@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darker_grey"
+    android:orientation="vertical"
+    tools:context="shay.example.com.dart_master.ClientActivity">
+
+    <include
+        android:id="@+id/user_card"
+        layout="@layout/user_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp" />
+
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/arriving_or_departing_from"
+        android:textColor="@color/off_white"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <include
+        android:id="@+id/user_table"
+        layout="@layout/details_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/requestLocText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/location_granted"
+        android:textColor="@color/off_white"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/rel_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/requestLocBtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageButton
+            android:id="@+id/requestLocBtn"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/location_btn_background"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="true"
+            android:src="@drawable/location_btn_selector"
+            android:contentDescription="@string/location_button" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#476130</color>
+    <color name="colorPrimaryDark">#858c38</color>
+    <color name="colorAccent">#414915</color>
+    <color name="cardBackground">#f0eb89</color>
+    <color name="mainHolderBackground">#dcedc8</color>
+    <color name="switch_red">#d45254</color>
+    <color name="dart_green">#476130</color>
+    <color name="dart_light_green">#858c38</color>
+    <color name="dart_cream">#f7efa5</color>
+    <color name="dark_grey">#424242</color>
+    <color name="heading_dark_grey">#313131</color>
+    <color name="light_grey">#757575</color>
+    <color name="train_north">#1e88e5</color>
+    <color name="train_south">#fb8c02</color>
+    <color name="off_white">#fffcdc</color>
+    <color name="pale_green">#e1e5b8</color>
+    <color name="dart_pale_green">#bcc187</color>
+    <color name="light_green">#aed581</color>
+    <color name="blue_circle">#48b3ff</color>
+    <color name="yellow">#ffee58</color>
+    <color name="light_navy">#343e57</color>
+    <color name="navy">#2c354a</color>
+</resources>

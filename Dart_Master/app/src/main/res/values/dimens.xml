@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cient_table_text">12sp</dimen>
+    <dimen name="cient_table_padding">3dp</dimen>
+</resources>

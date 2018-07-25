@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:addStatesFromChildren="false"
+    android:background="@color/mainHolderBackground"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/favourite_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/menu_button"
+        android:shadowRadius="5"
+        android:text="@string/select_journey"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/favourite_btn"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/menu_button"
+        android:shadowRadius="5"
+        android:text="@string/favourite_journeys"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/map_btn"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/favourite_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/menu_button"
+        android:shadowRadius="5"
+        android:text="Map View"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</RelativeLayout>
+

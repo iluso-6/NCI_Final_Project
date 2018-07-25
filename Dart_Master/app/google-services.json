@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "862124063222",
+    "firebase_url": "https://nci-main-project.firebaseio.com",
+    "project_id": "nci-main-project",
+    "storage_bucket": "nci-main-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862124063222:android:389f1d900ec2de35",
+        "android_client_info": {
+          "package_name": "shay.example.com.dart_master"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862124063222-8dsj43ftk0lks66stth63k7jt7eaclte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shay.example.com.dart_master",
+            "certificate_hash": "38a9b9ca257def28d0d7e85e0b1a0acaa9c6466e"
+          }
+        },
+        {
+          "client_id": "862124063222-qcqdh1nvti45qfg4lp1e1j36neq8bnod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpZWi8gnccnb39tMYFu2ltgENEL7AiSk8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862124063222-qcqdh1nvti45qfg4lp1e1j36neq8bnod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

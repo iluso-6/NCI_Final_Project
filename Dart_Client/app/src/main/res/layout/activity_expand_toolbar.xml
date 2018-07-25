@@ -1,0 +1,100 @@
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mainRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainHolderBackground"
+        android:layoutAnimation="@anim/layout_animation_from_bottom" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/MyAppbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapse_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dart_light_green"
+            android:fitsSystemWindows="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/from_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40sp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/from"
+                    android:textColor="@color/com_facebook_button_background_color_focused"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/exit_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/from_text"
+                    android:backgroundTint="@color/com_facebook_button_send_background_color"
+                    android:backgroundTintMode="src_atop"
+                    android:src="@drawable/com_facebook_button_like_icon_selected"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/from_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/from_text"
+                    android:backgroundTint="@color/com_facebook_button_send_background_color"
+                    android:backgroundTintMode="src_atop"
+                    android:src="@drawable/com_facebook_button_like_icon_selected"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/to_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40sp"
+                    android:layout_below="@+id/from_text"
+                    android:layout_marginStart="30dp"
+                    android:text="@string/to"
+                    android:textColor="@color/com_facebook_button_background_color_focused"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/to_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/to_text"
+                    android:backgroundTint="@color/com_facebook_button_send_background_color"
+                    android:backgroundTintMode="src_atop"
+                    android:src="@drawable/com_facebook_button_like_icon_selected"
+                    android:visibility="gone" />
+
+
+            </RelativeLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

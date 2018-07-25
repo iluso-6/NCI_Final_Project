@@ -1,0 +1,178 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tlTable01"
+    android:background="@color/dart_green"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="1dp"
+    android:stretchColumns="0,1">
+    <TableRow
+
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/pale_green"
+            android:padding="5dp"
+            android:text="@string/train_id"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/train_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/pale_green"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="d379"
+            android:textAllCaps="true"
+            android:textStyle="bold|italic" />
+    </TableRow>
+    <TableRow
+
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dart_light_green"
+            android:padding="5dp"
+            android:text="Train Type"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dart_light_green"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Dart" />
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/pale_green"
+            android:padding="5dp"
+            android:text="@string/direction"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/pale_green"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Northbound" />
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dart_light_green"
+            android:padding="5dp"
+            android:text="Scheduled  Arrival"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sch_arr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dart_light_green"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="13:40" />
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/pale_green"
+            android:padding="5dp"
+            android:text="Expected Arrival"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/exp_arr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/pale_green"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="12:32" />
+    </TableRow>
+    <TableRow
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dart_light_green"
+            android:padding="5dp"
+            android:text="Origin"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/dart_light_green"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="13:40" />
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/pale_green"
+            android:padding="5dp"
+            android:text="Destination"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/pale_green"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="12:32" />
+    </TableRow>
+</TableLayout>

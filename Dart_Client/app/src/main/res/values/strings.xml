@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">TAP</string>
+    <string name="logo">logo</string>
+    <string name="to">To:&#160;</string>
+    <string name="from">From:&#160;</string>
+    <string name="sch_arr">Sch. Arrival:&#160;</string>
+    <string name="exp_arr">Exp. Arrival:&#160;</string>
+    <string name="sch_dest">Sch. Destination:&#160;</string>
+    <string name="exp_dest">Exp. Destination:&#160;</string>
+    <string name="late">Late:&#160;</string>
+    <string name="origin">Origin:&#160;</string>
+    <string name="dest">Destin:&#160;</string>
+    <string name="due">Due in:&#160;</string>
+    <string name="menu_set_local_station">Set Local Station</string>
+    <string name="favourite_journeys">Favourite Journeys</string>
+    <string name="select_journey">Select Journey</string>
+    <string name="no_further_info">No further Info..</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="greystones_to_malahide">eujcInv~c@_@ZUPmCpCqC|DwBnDkAxBwEtHyFtGeF|D{FrDcBxA{BfCuAjB{AhC{FtLqBxCsC`DiBzA_B~@gBx@wCv@}EnAgPjDoPpDqDH{Fk@sHoAgE{@oI{CaI{D_C}AkB_BoAy@sAm@gCi@oBK_A@kA\\}ClAmDdAmDb@qIXsBd@o@\\kFnEs@d@u@RuBd@{CRuDGyCAa@FaCT{Dz@aD~@yB~@wBzAkB|AoCfDwAnCaAhCeEtJqCnGuAtDeAvDcA`H[lDU`FWjKm@hFmA~EkAnC{@vAgApAmA`AmBjA_ExBg@ZeDhBgHhEyF`DmFvCoE~BwEvC_ClAiEpBeHvBqC|@gChAsBpA}BhBsHzHkEtDcBbAqFzBiWdImz@zWad@rN}DbAALeC\\_FVcF?}QM{CQwAU{Bk@eDuA}FaE{F_EeEgBgEy@oFY_Mg@yFe@wF[sFM_EYeDg@}Bk@cEgB}AaAyBgBcFgFgFmE_JuFsAsAiAcBs@_BgAuDuC_KkBcIqCkLyAaFaAgC}AeCgAcA_B}@oA_@u@JiC~@}AdA}A`ByAtB}A|CiA~CiAhEkCxOqDdVyAlJiBlKqHl_@uJzd@uCfN}@`DsAtCy@lAmAlAgC|A{A^oBJoDBuBAkCK_AQeAa@wCkAg@MiAEuANqAf@yAjAgCrCqBbCiFvHgChEiAjCmBnFsD~JoAxEy@hEe@tDe@hICbGFdEfCff@f@dO?zEUxGg@`Gu@nF_BxH_Jl\\_EnP}AbIsGxa@uDvTsDbPuDxM{Mtc@kJnZaDnIyDtIaAnBaFbJoM~ToS|]sMbUuJdPe[xd@_QpVwUv\\mFxHyDpFgOjTmB~CcB|C{CtGaChGw@nCmAjDcE|K}B|HgCzJ_@hAaBdIcDzTk@bCg@|AoA`CyDxEwBfCsAjB}AbBmAv@y@\\yATcADqBUuBaAmAqA_BcCyB_FiEeKeAuDo@_ESiAo@yB}AmEcAmDwA{CiCcGeC_G}A}Eq@uB}@wBmEqKmL{X{q@iaBaGoNwDgKgC}IkEaTsBaKaD_NuAwEsB_GgEgLqKkYqCgImC_K_BkIeA_H_BgNgI}{@yAyMkA{HeAwFeDsN_EwMwDwJaFcKkD_GCHg@w@oMuRyAuBmFeI}FiIaDmDuBmB_GgEuC_BaCeAiEqAmQiDaKgBmCYkDK_DDeGb@wXnDiYtDak@lHa{ApR_r@xIkCP{CBoCM{R{AcCS_@A</string>
+    <string name="greystones_to_howth">sujcIzv~c@_@ZGDmCpCqC|DwBnDkAxBwEtHyFtGeF|D{FrDcBxA{BfCuAjB{AhC{FtLqBxCsC`DiBzA_B~@gBx@wCv@}EnAgPjDoPpDqDH{Fk@sHoAgE{@oI{CaI{D_C}AkB_BoAy@sAm@gCi@oBK_A@kA\\}ClAmDdAmDb@qIXsBd@o@\\kFnEs@d@u@RuBd@{CRuDGyCAa@FaCT{Dz@aD~@yB~@wBzAkB|AoCfDwAnCaAhCeEtJqCnGuAtDeAvDcA`H[lDU`FWjKm@hFmA~EkAnC{@vAgApAmA`AmBjA_ExBg@ZeDhBgHhEyF`DmFvCoE~BwEvC_ClAiEpBeHvBqC|@gChAsBpA}BhBsHzHkEtDcBbAqFzBiWdImz@zWad@rN}DbAALeC\\_FVcF?}QM{CQwAU{Bk@eDuA}FaE{F_EeEgBgEy@oFY_Mg@yFe@wF[sFM_EYeDg@}Bk@cEgB}AaAyBgBcFgFgFmE_JuFsAsAiAcBs@_BgAuDuC_KkBcIqCkLyAaFaAgC}AeCgAcA_B}@oA_@u@JiC~@}AdA}A`ByAtB}A|CiA~CiAhEkCxOqDdVyAlJiBlKqHl_@uJzd@uCfN}@`DsAtCy@lAmAlAgC|A{A^oBJoDBuBAkCK_AQeAa@wB_AgAYiAEuANqAf@yAjA{DnE{C~DuEdHeBnDaBlE_ErKiAtDoArFc@xCu@zIGxCB|HpArWpArWNdNUxGg@`Gu@nFu@|DoA~E_DtLyCrK_EnP}AbIsGxa@uDvTsDbPuDxMcFrPmL``@uDnLaDnI{FdMsMpUkXje@_Zng@aVd^_TpZcQtVaNxRmClDiNfS{CzEaFjJwD~IkBhGoDxJwBbGa@~AaD~LaAdD}AtI}CrSo@hC_A|B_AvAmBzB{CpDgCfD_BvAeAf@sA^qAHqAEcBa@iBoAiB_CcAsBiF{LcAiCe@cBu@{Du@{DeB}Ew@sCiAyCsCkGkCmG_BqEeBmFuEwKsHsQct@oeB}KkXwCuIyAoFsAmG}CaPcD{NaDoLwGyQqJoWaD}I{CeKeCyLsBoNeHcu@uBoTw@{GkA{HgDiPgCoJeEiM{E}K{E}IcA_BCHg@w@oMuRq@aAiC}DkC{DQWb@uA]yAc@iCs@wIGqFpAq_Af@}^HaKKaOi@of@g@_a@OaPRkVlAopAd@ge@Z}NvAmc@R_EfBcTjDia@\\eEFy@</string>
+    <string name="junction_to_malahide">ezzdI`pqd@iMyQaDmDuBmBaCmB}ByAuC_BaCeA}Ai@kBg@cCi@iM_CqGmAoBYmCYkDK_DDeBH_DXiRdCmEh@iYtDySnC_~@jLaxA|QgM~AkCP{CBoCM{R{AoBO</string>
+    <string name="northbound">Northbound</string>
+    <string name="title_activity_begin_journey">BeginJourney</string>
+    <string name="issued_at">Issued @&#160;</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="set_local_station">Set Local Station</string>
+    <string name="logout">Logout</string>
+    <string name="phone_number_contact">Set Contact Phone Number</string>
+    <string name="train_not_serve">This Train does not serve&#160;</string>
+    <string name="no_train_information_available">No Train Information Available</string>
+    <string name="status">Status</string>
+    <string name="origin_station_name">origin_station_name</string>
+    <string name="origin_status">Not Viewed</string>
+    <string name="dest_station_name">dest_station_name</string>
+    <string name="dest_status">Not Viewed</string>
+    <string name="title_activity_frequent_journeys">FrequentJourneys</string>
+    <string name="are_you_sure_you_want_to_cancel_the_selected_journey">Cancel the selected journey?</string>
+    <string name="zone">Zone:&#160;</string>
+
+    <string name="permission_rationale">Location permission is needed for tracking service</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for tracking
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="irish_rail_require_permissions_to_track_your_location_please_accept">Irish Rail require permissions to track your location, Please accept.</string>
+    <string name="irish_rail_may_require_permissions_to_contact_you_please_accept">Irish Rail may require permissions to contact you, please accept.</string>
+    <string name="channel_description">Channel to monitor TAP communication</string>
+</resources>

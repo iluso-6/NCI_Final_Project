@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/off_white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="64dp"
+        android:background="@color/pale_green"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/tap_small" />
+
+    <TextView
+        android:id="@+id/warning_text"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/are_you_sure_you_want_to_cancel_the_selected_journey"
+        android:textAlignment="center"
+        android:textDirection="ltr"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@color/pale_green"
+            android:text="NO" />
+
+        <Button
+            android:id="@+id/button_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@color/pale_green"
+            android:foreground="@android:drawable/stat_sys_warning"
+            android:foregroundGravity="center_vertical"
+            android:foregroundTint="@color/switch_red"
+            android:freezesText="false"
+            android:text="YES" />
+
+    </RelativeLayout>
+
+</LinearLayout>
