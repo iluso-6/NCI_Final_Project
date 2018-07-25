@@ -85,9 +85,9 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
 <table>
 	<th colspan="3">Client Interactive Map Activity</th>
   <tr>
-    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/map2.png?raw=true" align="left"/></td>
+    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/map2.PNG?raw=true" align="left"/></td>
     <td width="33%"></td>
-    <td> <img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/map3.png?raw=true" align="right"/>
+    <td> <img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/map3.PNG?raw=true" align="right"/>
     </td>
 
 <br><br>
