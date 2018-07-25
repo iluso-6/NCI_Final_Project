@@ -37,13 +37,37 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
   
 </table>
 
+<table>
+  <tr>
+    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image041.png?raw=true" align="left"/></td>
+    <td width="33%"></td>
+    <td> <img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image042.png?raw=true" align="right"/>
+    </td>
+
 <br><br>
+
+  </tr>
+  
+</table>
 
 <table>
   <tr>
-    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image039.png?raw=true" align="left"/></td>
+    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image043.png?raw=true" align="left"/></td>
     <td width="33%"></td>
-    <td> <img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image040.png?raw=true" align="right"/>
+    <td> <img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image044.png?raw=true" align="right"/>
+    </td>
+
+<br><br>
+
+  </tr>
+  
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image045.png?raw=true" align="left"/></td>
+    <td width="33%"></td>
+    <td> <img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image046.png?raw=true" align="right"/>
     </td>
 
 <br><br>
