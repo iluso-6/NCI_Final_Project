@@ -65,7 +65,7 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
 
 <table>
   <tr>
-    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image053.png?raw=true" align="left"/></td>
+    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image045.png?raw=true" align="left"/></td>
     <td width="33%"></td>
     <td> <img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image046.png?raw=true" align="right"/>
     </td>
@@ -78,7 +78,7 @@ The Irish Rail API will also facilitate the provision of live Dart rail movement
 
 <table>
   <tr>
-    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image045.png?raw=true" align="left"/></td>
+    <td><img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image053.png?raw=true" align="left"/></td>
     <td width="33%"></td>
     <td> <img src="https://github.com/iluso-6/NCI_Final_Project/blob/master/screenshots/image047.png?raw=true" align="right"/>
     </td>
